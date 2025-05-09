@@ -74,6 +74,7 @@ async def main():
                 7. look for input with "Booking custom field" and type "{json_body['booking_custom_field']}"
                 8. Look for input with "ADD ANOTHER" and type "{json_body['new_booking_source']}"
 				9. Click on "Source for bookings from your website" dropdown and select "{json_body['selected_booking_source']}" then send "escape" key to close dropdown menu"
+                10. Click on "Save" button
                 ''',
                 llm=llm,
                 browser=browser
